@@ -61,7 +61,7 @@ BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_QCOM_FM := true
 TARGET_HAVE_TSLIB := true
 
-TARGET_NO_BOOTLOADER := false
+TARGET_NO_BOOTLOADER := true
 TARGET_NO_KERNEL := false
 TARGET_NO_RADIOIMAGE := true
 # Try to use ASHMEM if possible (when non-MDP composition is used)
