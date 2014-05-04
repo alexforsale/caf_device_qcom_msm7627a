@@ -1,0 +1,2 @@
+Codeaurora's device/qcom/msm7627a branch ics_strawberry_rb5.3
+modified for AD683G
