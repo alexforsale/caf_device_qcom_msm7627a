@@ -25,7 +25,7 @@ endif
 #----------------------------------------------------------------------
 # Compile Linux Kernel
 #----------------------------------------------------------------------
-ifeq ($(TARGET_PREBUILT_KERNEL),)
+
 ifeq ($(KERNEL_DEFCONFIG),)
     KERNEL_DEFCONFIG := msm7627a-perf_defconfig
 endif
@@ -36,7 +36,7 @@ file := $(INSTALLED_KERNEL_TARGET)
 ALL_PREBUILT += $(file)
 $(file) : $(TARGET_PREBUILT_KERNEL) | $(ACP)
 	$(transform-prebuilt-to-target)
-endif
+
 #----------------------------------------------------------------------
 # Key mappings
 #----------------------------------------------------------------------
